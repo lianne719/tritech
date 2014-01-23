@@ -1,0 +1,182 @@
+body {
+	font-family: Helvettica, Arial, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvettica, Arial, sans-serif !important;
+}
+
+.row {
+	max-width: 1600px;
+	margin: 0 auto;
+	
+	.columns {
+		text-align: center;
+	}
+}
+
+.logo {
+	color: #FFFFFF;
+	font-size: 2em;
+	text-transform: uppercase;
+	
+	a {
+		color: #FFFFFF;
+		font-weight: 900;	
+	}
+}
+
+.title, .sub-title {
+	text-transform: uppercase;
+}
+
+.title {
+	font-size: 4em;
+	font-weight: 900;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.sub-title {
+	font-size: 3em;
+	font-weight: 800 !important;
+	padding-bottom: 0;
+}
+
+.navbar {
+	background: 0;
+	
+	.row {
+		.push_eight {
+			margin-left: 76%;	
+		}
+		
+		ul {
+			li {
+				a {
+					font-weight: 900;
+					text-transform: uppercase;
+					text-shadow: none;
+				}
+			}
+		}
+	}
+}
+
+.parallax-img {
+	.parallax {
+		background-image: url("../img/smaller-traffic.jpg");
+		background-position: center;
+		height: 700px;
+		width: 100%;
+		z-index: 1 !important;
+	}
+	
+	.darker-background {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 700px;
+		z-index: 10;
+		background-color: #000000;
+		opacity: 0.7;
+	}
+}
+
+.header {
+	position: fixed;
+	top: 240px;
+	width: 100%;
+	
+	.company-name, .company-headline {
+		position: relative;
+		text-align: center;
+		color: #FFFFFF;
+		opacity: 1;
+		z-index: 100 !important;
+	}
+	
+	.company-name {
+		font-size: 4em;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	
+	.company-headline {
+		font-size: 3em;
+		font-weight: 400;
+	}
+}
+
+.main-products, .about-us, .contact-us {
+	padding: 70px 0 100px;
+	position: relative;
+	z-index: 1000 !important;
+}
+
+.main-products {
+	background-color: snow;
+	
+	.title {
+		color: #011b40;
+	}
+	
+	.row {
+		padding-bottom: 70px;
+	}
+}
+
+.about-us {
+	background-color: #edeceb;
+	
+	.title {
+		color: #011b40;
+	}
+	
+	.row {
+		padding-bottom: 50px;
+		
+		p {
+			color: #0f3ca3;
+			font-size: 2em;
+		}	
+	}	
+}
+
+.contact-us {
+	background-color: #011b40;
+	
+	.title, .sub-title {
+		color: #FFFFFF;
+	}
+	
+	.sub-title {
+		text-align: left;
+		line-height: 1;
+	}
+	
+	.contact-form {
+		input, button {
+			width: 100%;
+			height: 60px;
+			margin-bottom: 50px;
+		}
+		
+		.message-input {
+			height: 350px;
+		}
+		
+		button {
+			background-color: #0060b6;
+			margin-top: 10px;
+			border: none;
+			font-family: Helvettica, Arial, sans-serif !important;
+			
+			.sub-title {
+				text-align: center;
+				line-height: 1.4;
+			}
+		}
+	}
+}
